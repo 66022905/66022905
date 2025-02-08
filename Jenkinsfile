@@ -18,7 +18,7 @@ pipeline {
         stage("Create Docker Container") {
             steps {
                 //path yaml files
-				ansiblePlaybook playbook: '/var/lib/jenkins/workspace/66022905playbooks/deploy.yaml'
+				ansiblePlaybook playbook: '/var/lib/jenkins/workspace/66022905/playbooks/deploy.yaml'
             }    
         } 
     }
